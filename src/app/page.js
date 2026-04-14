@@ -8,65 +8,65 @@ import { trackEvent } from "@/lib/metaPixel";
 export default function Home() {
   const topReviews = [
     {
-      name: "Olivia E.",
-      text: "Absolutely love this bundle! It includes everything from versatile drawing guides to step-by-step guides—such a comprehensive collection for drawing enthusiasts!",
+      name: "Emma M.",
+      text: "Absolutely love this Drawing Guide Notes bundle! It covers everything from basic techniques to more advanced tips.",
       image: "/images/R1.jpg",
     },
     {
       name: "Mia A.",
-      text: "This is hands down the best drawing resource I've found! Beautiful, easy-to-follow patterns, helpful techniques, and tons of inspiration to keep creating!",
+      text: "A must-have for any artist looking to stay organized, inspired, and keep improving!",
       image: "/images/R2.jpg",
     },
     {
-      name: "Anna H.",
-      text: "A game-changer for my drawing journey! Packed with versatile patterns and easy-to-follow instructions that make a real difference!",
+      name: "Larissa B.",
+      text: "So glad I found this! Each drawing guide is perfectly structured, with space for my own sketches and notes.",
       image: "/images/R3.jpg",
     },
   ];
 
   const addons = [
-    ["Animal Drawing Guidebook", "$0.99", "$12.99"],
-    ["Beginner’s Sketching Guide", "$0.99", "$9.99"],
+    ["Animal Drawing Guidebook", "$0.99", "$14.99"],
+    ["Beginner’s Sketching Guide", "$0.99", "$14.99"],
     ["Creative Doodle Workbook", "$0.99", "$14.99"],
-    ["Figure Drawing Fundamentals", "$0.99", "$12.99"],
-    ["Still Life Drawing Templates", "$0.99", "$9.99"],
+    ["Figure Drawing Fundamentals", "$0.99", "$14.99"],
+    ["Still Life Drawing Templates", "$0.99", "$14.99"],
     ["30-Day Drawing Challenge", "$0.99", "$14.99"],
-    ["Character Design Workbook", "$0.99", "$12.99"],
-    ["Digital Drawing Basics (for Tablets)", "$0.99", "$9.99"],
+    ["Character Design Workbook", "$0.99", "$14.99"],
+    ["Digital Drawing Basics (for Tablets)", "$0.99", "$14.99"],
     ["Hair & Textures Practice Pack", "$0.99", "$14.99"],
-    ["Inking & Line Art Techniques", "$0.99", "$12.99"],
-    ["Background & Scene Composition Guide", "$0.99", "$9.99"],
+    ["Inking & Line Art Techniques", "$0.99", "$14.99"],
+    ["Background & Scene Composition Guide", "$0.99", "$14.99"],
     ["Chibi & Cute Style Guide", "$0.99", "$14.99"],
-    ["Facial Features Practice Sheets", "$0.99", "$12.99"],
-    ["Hands & Feet Drawing Guide", "$0.99", "$9.99"],
-    ["Perspective Drawing Mastery", "$0.99", "$12.99"],
+    ["Facial Features Practice Sheets", "$0.99", "$14.99"],
+    ["Hands & Feet Drawing Guide", "$0.99", "$14.99"],
+    ["Perspective Drawing Mastery", "$0.99", "$14.99"],
   ];
 
   const benefits = [
     "Over 1000 printable pages covering sketches, techniques, references & more",
-    "Built to improve your technique and spark creativity – at any level",
-    "Includes machine setup, sketching basics, shading, proportions, perspective and more",
-    "Clear, beginner-friendly instructions – no fashion degree required",
-    "Designed for practice swatches, personal projects, and custom garments",
-    "Pairs well with quilting, alterations, or creative DIY challenges",
+    "Designed to improve your drawing skills and spark creativity at any level",
+    "Includes fundamentals like sketching, shading, proportions, perspective, and composition",
+    "Step-by-step, beginner-friendly instructions that are easy to follow",
+    "Perfect for daily practice, sketching exercises, and personal art projects",
+    "Great for traditional and digital artists alike",
   ];
 
   const testimonialCards = [
     {
-      title: "I'm finally staying on track with my drawing projects!",
-      body: "This bundle is awesome—it’s super easy to use and has everything I need to keep drawing: gorgeous patterns, helpful tutorials, and even space to track my progress. Definitely recommend it!",
-      name: "Charline M.",
+      title: "Love these as a beginner!",
+      body: "I just started learning to draw, and these notes helped me grasp the basics. Now, I can even sketch simple compositions with confidence!",
+      name: "Janine H.",
       image: "/images/T1.jpg",
     },
     {
-      title: "My drawing has never been better!",
-      body: "This bundle is fantastic! It’s super user-friendly and has everything I need—beautiful patterns, clear guides, and loads of inspiration. It’s become my go-to resource every time I sit down to draw. Definitely recommend!",
+      title: "Easy to learn!",
+      body: "Drawing felt intimidating at first, but not anymore. These guides break everything down so clearly that I’m enjoying drawing every day!",
       name: "Samantha T.",
       image: "/images/T2.jpg",
     },
     {
-      title: "Love these drawing guides so much!",
-      body: "This bundle makes everything so simple! It covers all the bases and makes creating amazing designs a breeze. The step-by-step layout is clear and easy to follow—perfect for any skill level. Totally worth it!",
+      title: "Perfect gift!",
+      body: "I gifted these notes to my friend, and she absolutely loves them! The perfect gift for anyone who loves to draw!",
       name: "Lisa B.",
       image: "/images/T3.jpg",
     },
@@ -75,7 +75,7 @@ export default function Home() {
   const stats = [
     ["98%", "Reported feeling more confident in their drawing skills"],
     ["94%", "Felt more inspired to keep drawing and creating"],
-    ["97%", "rated our bundle 4.5/5"],
+    ["97%", "rated our bundle 4.9/5"],
   ];
 
   const quickLinks = [
@@ -558,10 +558,10 @@ export default function Home() {
 
               <ul className="mt-[10px] space-y-[5px] text-[16px] text-[#444]">
                 <li>🚀 Get Instant Access – Start Drawing Right Away!</li>
-                <li>✨ Designed to Inspire Your Drawing Creations</li>
-                <li>✏️ Elevate Your Drawing Skills Today!</li>
+                <li>✨ Perfect for Artists of All Skill Levels</li>
+                <li>✏️ Stay Inspired and Improve Your Techniques!</li>
                 <li className="font-semibold text-black">
-                  🎉 Free Today – Anniversary Sale
+                  🎉 Free Today – Anniversary Sale!
                 </li>
               </ul>
 
@@ -724,8 +724,8 @@ export default function Home() {
               <p className="mx-auto mt-6 text-[14px] md:text-[15px] leading-[1.6] text-[#555] md:whitespace-nowrap">
                 During our{" "}
                 <span className="font-extrabold text-[#222]">Anniversary Sale</span>, we're giving away{" "}
-                <span className="font-extrabold text-[#222]">1000 Notes for FREE!</span> We just ask that you
-                cover the processing fee. Help us spread the word!
+                <span className="font-extrabold text-[#222]">1000 Drawing Guide Notes for FREE!</span> We just ask that you
+                cover the processing fee. Help us spread the word and inspire more artists!
               </p>
             </div>
 
@@ -760,15 +760,11 @@ export default function Home() {
             <div className="grid items-center gap-[20px] md:gap-[60px] lg:grid-cols-[0.95fr_1.05fr]">
               <div className="order-2 lg:order-1">
                 <h2 className="max-w-[760px] text-[28px] md:text-[36px] font-extrabold leading-[1.2] tracking-[0.06rem] text-[#121212]">
-                  Everything You Need to Sew!
+                  Stay on Track with Your Drawing Journey!
                 </h2>
 
                 <p className="mt-4 md:mt-8 max-w-[680px] text-[14px] md:text-[15px] leading-[1.6] text-[#555]">
-                  From versatile drawing guides to step-by-step tutorials, we’ve got
-                  everything you need to bring your projects to life. There’s even space to
-                  sketch out your own ideas, so you can track your progress and celebrate
-                  your creativity. Just grab your pencil and paper, and start drawing your
-                  way to a more relaxing, rewarding craft experience!
+                  Say goodbye to scattered ideas and forgotten techniques! These Drawing Guide Notes help you stay organized with every lesson, allowing you to focus on improving your skills with more confidence and faster progress.
                 </p>
               </div>
 
@@ -800,14 +796,11 @@ export default function Home() {
 
               <div>
                 <h2 className="max-w-[760px] text-[28px] md:text-[36px] font-extrabold leading-[1.2] tracking-[0.06rem] text-[#121212]">
-                  Your Ultimate Drawing Companion!
+                  Lessons for Artists at Any Stage!
                 </h2>
 
                 <p className="mt-4 md:mt-8 max-w-[700px] text-[14px] md:text-[15px] leading-[1.6] text-[#555]">
-                  From detailed techniques to easy-to-follow tutorials, this bundle has
-                  everything you need to bring your drawing projects to life. Plus, there’s
-                  space to plan your own designs and track your progress. Just grab your
-                  pencil and paper, and let your creativity flow with every stroke.
+                  From basic sketching techniques to more advanced drawing skills, this bundle has a guide for every stage of your artistic journey. It's all in one place, beautifully organized, and ready whenever creativity strikes!
                 </p>
               </div>
             </div>
@@ -817,8 +810,8 @@ export default function Home() {
         <section className="bg-white pt-4 pb-8 md:pt-8 md:pb-16">
           <div className="mx-auto max-w-[1320px] px-[24px]">
             <div className="text-center">
-              <h2 className="text-[30px] md:text-[36px] font-extrabold leading-[1.2] tracking-[0.06rem] text-[#111]">
-                Join Thousands of Drawing Lovers!
+              <h2 className="text-[30px] md:text-[36px] font-extrabold leading-[1.2] tracking-[0.06rem] text-[#eda3ac]">
+                Join Thousands of Passionate Artists!
               </h2>
 
               <div className="mt-6 flex items-center justify-center gap-3 text-[#444]">

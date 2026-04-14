@@ -5,12 +5,8 @@ import { resend } from "@/lib/resend";
 // All customers receive these two folders regardless of what they purchased
 const DOWNLOAD_LINKS = [
   {
-    name: "Full Drawing Guide (Upgraded to Colored)",
-    url: "https://drive.google.com/drive/u/0/folders/1JFhdBQICTAqXuFeleeIzO0tSM5S4gJYP",
-  },
-  {
-    name: "All Extras and Upgrades",
-    url: "https://drive.google.com/drive/u/0/folders/11jWbAB3muUxh0zNo0ucPet_xrt23F8TB",
+    name: "Drawing Guide Notes (All Files + Upgrades)",
+    url: "https://drive.google.com/drive/u/0/folders/1epWDNvy5x7NPLVGz4muh6hEzND4H5DcI?_kx=EJHibOtCwU2u_EsvziM52hy47du4EMnbhn5UBJcJY3o.UTrkKV",
   },
 ];
 
