@@ -25,21 +25,21 @@ export default function Home() {
   ];
 
   const addons = [
-    ["Alterations & Repairs Guide", "$0.99", "$12.99"],
-    ["Bag & Accessory Drawing Guide", "$0.99", "$14.99"],
-    ["Beginner’s Drawing Easy Guide", "$0.99", "$9.99"],
-    ["Color Guide & Swatch Notes", "$0.99", "$12.99"],
-    ["Decorative Drawing Guide", "$0.99", "$14.99"],
-    ["Garment Construction Notes", "$0.99", "$12.99"],
-    ["Hand Drawing Techniques Guide", "$0.99", "$9.99"],
-    ["Home Décor Drawing Guide", "$0.99", "$14.99"],
-    ["Sketching & Pattern Notes", "$0.99", "$12.99"],
-    ["Kids & Baby Drawing Projects Guide", "$0.99", "$9.99"],
-    ["Machine Drawing Guide", "$0.99", "$9.99"],
-    ["Quilting & Patchwork Notes", "$0.99", "$14.99"],
-    ["Drawing Tools Maintenance Notes", "$0.99", "$12.99"],
-    ["Drawing Projects Planner & Tracker", "$0.99", "$9.99"],
-    ["Zippers & Fastenings Guide", "$0.99", "$12.99"],
+    ["Animal Drawing Guidebook", "$0.99", "$12.99"],
+    ["Beginner’s Sketching Guide", "$0.99", "$9.99"],
+    ["Creative Doodle Workbook", "$0.99", "$14.99"],
+    ["Figure Drawing Fundamentals", "$0.99", "$12.99"],
+    ["Still Life Drawing Templates", "$0.99", "$9.99"],
+    ["30-Day Drawing Challenge", "$0.99", "$14.99"],
+    ["Character Design Workbook", "$0.99", "$12.99"],
+    ["Digital Drawing Basics (for Tablets)", "$0.99", "$9.99"],
+    ["Hair & Textures Practice Pack", "$0.99", "$14.99"],
+    ["Inking & Line Art Techniques", "$0.99", "$12.99"],
+    ["Background & Scene Composition Guide", "$0.99", "$9.99"],
+    ["Chibi & Cute Style Guide", "$0.99", "$14.99"],
+    ["Facial Features Practice Sheets", "$0.99", "$12.99"],
+    ["Hands & Feet Drawing Guide", "$0.99", "$9.99"],
+    ["Perspective Drawing Mastery", "$0.99", "$12.99"],
   ];
 
   const benefits = [
@@ -90,25 +90,25 @@ export default function Home() {
     name: "1.000+ Free Drawing Easy Guide",
     price: 0.0,
     compareAtPrice: 99.99,
-    image: "/images/drawing-main.gif",
+    image: "/images/main.gif",
   };
 
   const iconMap = {
-    "Alterations & Repairs Guide": "/images/icons/alterations.png",
-    "Bag & Accessory Drawing Guide": "/images/icons/bag.png",
-    "Beginner’s Drawing Easy Guide": "/images/icons/beginner.png",
-    "Color Guide & Swatch Notes": "/images/icons/fabric.png",
-    "Decorative Drawing Guide": "/images/icons/decorative.png",
-    "Garment Construction Notes": "/images/icons/garment.png",
-    "Hand Drawing Techniques Guide": "/images/icons/handstitching.png",
-    "Home Décor Drawing Guide": "/images/icons/home.png",
-    "Sketching & Pattern Notes": "/images/icons/pattern.png",
-    "Kids & Baby Drawing Projects Guide": "/images/icons/kids.png",
-    "Machine Drawing Guide": "/images/icons/machine.png",
-    "Quilting & Patchwork Notes": "/images/icons/quilting.png",
-    "Drawing Tools Maintenance Notes": "/images/icons/sewingmachine.png",
-    "Drawing Projects Planner & Tracker": "/images/icons/planner.png",
-    "Zippers & Fastenings Guide": "/images/icons/zippers.png",
+    "Animal Drawing Guidebook": "/images/icons/1.png",
+    "Beginner’s Sketching Guide": "/images/icons/2.png",
+    "Creative Doodle Workbook": "/images/icons/3.png",
+    "Figure Drawing Fundamentals": "/images/icons/4.png",
+    "Still Life Drawing Templates": "/images/icons/5.png",
+    "30-Day Drawing Challenge": "/images/icons/6.png",
+    "Character Design Workbook": "/images/icons/7.png",
+    "Digital Drawing Basics (for Tablets)": "/images/icons/8.png",
+    "Hair & Textures Practice Pack": "/images/icons/9.png",
+    "Inking & Line Art Techniques": "/images/icons/10.png",
+    "Background & Scene Composition Guide": "/images/icons/11.png",
+    "Chibi & Cute Style Guide": "/images/icons/12.png",
+    "Facial Features Practice Sheets": "/images/icons/13.png",
+    "Hands & Feet Drawing Guide": "/images/icons/14.png",
+    "Perspective Drawing Mastery": "/images/icons/15.png",
   };
 
   const addonProducts = addons.map(([title, sale, compare], index) => ({
@@ -521,7 +521,7 @@ export default function Home() {
             <div className="w-full">
               <div className="aspect-square overflow-hidden lg:rounded-[12px] lg:border lg:border-[#e5e5e5] bg-white">
                 <Image
-                  src="/images/drawing-main.gif"
+                  src="/images/main.gif"
                   alt="1.000+ Free Drawing Easy Guide"
                   width={800}
                   height={800}
@@ -1050,7 +1050,7 @@ export default function Home() {
                 {
                   name: "Ella J.",
                   text: "The step by step breakdowns made tricky techniques feel completely doable. I gained so much confidence after just a few projects.",
-                  image: "/images/L10.jpg",
+                  image: "/images/L3.jpg",
                 },
                 {
                   name: "Grace H.",
@@ -1074,8 +1074,18 @@ export default function Home() {
                 },
                 {
                   name: "Laura B.",
-                  text: "Perfect for beginners and experienced sewers alike. I keep coming back to it for every new project.",
+                  text: "Perfect for beginners and experienced artists alike. I keep coming back to it for every new project.",
                   image: "/images/L8.jpg",
+                },
+                {
+                  name: "Megan W.",
+                  text: "This is exactly what I needed to push my drawing skills further. So well organized and easy to follow.",
+                  image: "/images/L9.jpg",
+                },
+                {
+                  name: "Chloe F.",
+                  text: "Absolutely love the variety of guides included. There's something useful for every skill level.",
+                  image: "/images/L10.jpg",
                 },
               ].map((review, i) => (
                 <div key={i} className="bg-white">
@@ -1364,7 +1374,7 @@ export default function Home() {
             {/* IMAGE */}
             <div className="flex h-[54px] w-[54px] shrink-0 items-center justify-center overflow-hidden rounded-[10px] border border-[#e5e5e5] bg-white">
               <img
-                src="/images/drawing-main.gif"
+                src="/images/main.gif"
                 alt="1.000+ Free Drawing Easy Guide"
                 className="h-full w-full object-contain"
               />
