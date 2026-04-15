@@ -22,6 +22,7 @@ export async function POST(req) {
       metadata: {
         productIds: cartItems.map((i) => i.id).join(","),
         ...(email && { customer_email: email }),
+        site: "drawing",
       },
     });
 
