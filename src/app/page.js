@@ -13,7 +13,7 @@ export default function Home() {
       image: "/images/R1.jpg",
     },
     {
-      name: "Mia A.",
+      name: "Alex M.",
       text: "A must-have for any artist looking to stay organized, inspired, and keep improving!",
       image: "/images/R2.jpg",
     },
@@ -61,7 +61,7 @@ export default function Home() {
     {
       title: "Easy to learn!",
       body: "Drawing felt intimidating at first, but not anymore. These guides break everything down so clearly that I’m enjoying drawing every day!",
-      name: "Samantha T.",
+      name: "Chris T.",
       image: "/images/T2.jpg",
     },
     {
@@ -1034,7 +1034,7 @@ export default function Home() {
                   image: "/images/L2.jpg",
                 },
                 {
-                  name: "Ella J.",
+                  name: "David R.",
                   text: "The step by step breakdowns made tricky techniques feel completely doable. I gained so much confidence after just a few projects.",
                   image: "/images/L3.jpg",
                 },
@@ -1049,7 +1049,7 @@ export default function Home() {
                   image: "/images/L5.jpg",
                 },
                 {
-                  name: "Rachel T.",
+                  name: "Daniel P.",
                   text: "Incredible value! I use it every single time I sit down to draw. It's become my go-to reference.",
                   image: "/images/L6.jpg",
                 },
@@ -1064,7 +1064,7 @@ export default function Home() {
                   image: "/images/L8.jpg",
                 },
                 {
-                  name: "Megan W.",
+                  name: "Kevin H.",
                   text: "This is exactly what I needed to push my drawing skills further. So well organized and easy to follow.",
                   image: "/images/L9.jpg",
                 },
