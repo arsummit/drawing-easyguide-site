@@ -956,7 +956,7 @@ export default function CheckoutPage() {
   const totalItems = useMemo(() => cart.reduce((t, i) => t + i.quantity, 0), [cart]);
 
   const appearance = { theme: "stripe", variables: { colorPrimary: "#e8919c", borderRadius: "10px" } };
-  const options = { appearance };
+  const options = { appearance, locale: "en" };
 
   return (
     <>
