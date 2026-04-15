@@ -73,8 +73,8 @@ export default function Home() {
   ];
 
   const stats = [
-    ["98%", "Reported feeling more confident in their drawing skills"],
-    ["94%", "Felt more inspired to keep drawing and creating"],
+    ["98%", "Felt more structured and focused in their drawing journey."],
+    ["94%", "Said that learning to draw felt easier"],
     ["97%", "rated our bundle 4.9/5"],
   ];
 
@@ -243,13 +243,6 @@ export default function Home() {
     return () => clearInterval(interval);
   }, []);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setActiveReview((prev) => (prev + 1) % topReviews.length);
-    }, 3000);
-
-    return () => clearInterval(interval);
-  }, [topReviews.length]);
 
   useEffect(() => {
     document.body.style.overflow = isCartOpen ? "hidden" : "auto";
@@ -638,7 +631,7 @@ export default function Home() {
                               <div className="text-[16px] font-bold text-[#eda3ac]">
                                 {sale}
                               </div>
-                              <div className="mt-[3px] text-[13px] text-[#999] line-through">
+                              <div className="mt-[3px] text-[13px] text-[#111] line-through">
                                 {compare}
                               </div>
                             </div>
@@ -1292,7 +1285,7 @@ export default function Home() {
                         <div className="text-right">
                           <div className="flex items-center justify-end gap-2">
                             {item.compareAtPrice > item.price && (
-                              <span className="text-[13px] text-[#999] line-through">
+                              <span className="text-[13px] text-[#111] line-through">
                                 ${(item.compareAtPrice * item.quantity).toFixed(2)}
                               </span>
                             )}
