@@ -101,7 +101,7 @@ async function fulfillOrder({ email, amountTotal }) {
         <div style="margin-top:32px;padding:16px;background:#fff8f3;border-radius:8px;border:1px solid #f0e6da">
           <p style="margin:0;font-size:13px;color:#888">
             If you have any issues, reply to this email or contact
-            <a href="mailto:support@drawing.easyguide.store" style="color:#eda3ac">support@drawing.easyguide.store</a>
+            <a href="mailto:drawing@easyguide.store" style="color:#eda3ac">drawing@easyguide.store</a>
           </p>
         </div>
       </div>

@@ -62,7 +62,7 @@ export default function TermsOfService() {
           <h2 className="mt-8 text-[20px] font-bold text-[#111]">7. Contact</h2>
           <p className="mt-3 text-[16px] leading-[1.8] text-[#444]">
             For questions about these terms, email us at{" "}
-            <a href="mailto:support@drawing.easyguide.store" className="text-[#eda3ac] underline">support@drawing.easyguide.store</a>.
+            <a href="mailto:drawing@easyguide.store" className="text-[#eda3ac] underline">drawing@easyguide.store</a>.
           </p>
         </div>
       </main>

@@ -106,7 +106,7 @@ function SuccessContent() {
             <h2 className="text-[17px] font-bold text-[#111]">What happens next?</h2>
             <div className="mt-5 space-y-5">
               {[
-                { step: "1", title: "Check your email", desc: "Your download links will arrive within a few minutes from support@drawing.easyguide.store. Check your spam folder if you don't see it." },
+                { step: "1", title: "Check your email", desc: "Your download links will arrive within a few minutes from drawing@easyguide.store. Check your spam folder if you don't see it." },
                 { step: "2", title: "Download your guides", desc: "Click the links in your email to access your Drawing Guide folders on Google Drive. You can download them instantly." },
                 { step: "3", title: "Start drawing!", desc: "Use your guides as a reference anytime — beginner techniques, exercises, references, and more are all inside." },
               ].map(({ step, title, desc }) => (
@@ -127,8 +127,8 @@ function SuccessContent() {
           <div className="rounded-[16px] bg-white px-8 py-6 shadow-sm text-center">
             <p className="text-[14px] text-[#888]">
               Need help? We&apos;re here for you.{" "}
-              <a href="mailto:support@drawing.easyguide.store" className="font-medium text-[#eda3ac] underline">
-                support@drawing.easyguide.store
+              <a href="mailto:drawing@easyguide.store" className="font-medium text-[#eda3ac] underline">
+                drawing@easyguide.store
               </a>
             </p>
           </div>

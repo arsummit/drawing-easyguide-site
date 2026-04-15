@@ -1131,7 +1131,7 @@ export default function Home() {
               <div>
                 <h2 className="text-[20px] font-extrabold tracking-[0.04em] text-white">Contact Info</h2>
                 <p className="mt-5 flex items-start gap-3 text-[15px] leading-[1.8] tracking-[0.02em] text-white">
-                  <span>📧</span> support@drawing.easyguide.store
+                  <span>📧</span> drawing@easyguide.store
                 </p>
                 <p className="mt-5 flex items-start gap-3 text-[15px] leading-[1.8] tracking-[0.02em] text-white">
                   <span className="mt-[2px]">🌐</span>

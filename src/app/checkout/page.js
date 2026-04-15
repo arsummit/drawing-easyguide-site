@@ -915,7 +915,7 @@ function ProcessingPolicyModal({ onClose }) {
           </div>
           <div>
             <p className="font-semibold text-[#111]">Contact Us</p>
-            <p className="mt-2">If you have any questions about your order or our digital processing policy, please don&apos;t hesitate to contact our support team at <a href="mailto:support@drawing.easyguide.store" className="text-[#e8919c] underline">support@drawing.easyguide.store</a>.</p>
+            <p className="mt-2">If you have any questions about your order or our digital processing policy, please don&apos;t hesitate to contact our support team at <a href="mailto:drawing@easyguide.store" className="text-[#e8919c] underline">drawing@easyguide.store</a>.</p>
           </div>
         </div>
       </div>

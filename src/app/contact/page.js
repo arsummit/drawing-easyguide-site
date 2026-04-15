@@ -19,8 +19,8 @@ export default function Contact() {
             </p>
             <div className="mt-6">
               <p className="text-[15px] font-semibold text-[#111]">Email</p>
-              <a href="mailto:support@drawing.easyguide.store" className="mt-1 inline-block text-[17px] text-[#eda3ac] underline">
-                support@drawing.easyguide.store
+              <a href="mailto:drawing@easyguide.store" className="mt-1 inline-block text-[17px] text-[#eda3ac] underline">
+                drawing@easyguide.store
               </a>
             </div>
             <div className="mt-6">

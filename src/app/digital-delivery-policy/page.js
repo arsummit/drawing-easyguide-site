@@ -29,7 +29,7 @@ export default function DigitalDeliveryPolicy() {
           <p className="mt-3 text-[16px] leading-[1.8] text-[#444]">
             Your download email is typically delivered within <strong>a few minutes</strong> of your
             purchase. In rare cases it may take up to 30 minutes depending on your email provider.
-            The email will come from <strong>support@drawing.easyguide.store</strong>.
+            The email will come from <strong>drawing@easyguide.store</strong>.
           </p>
 
           <h2 className="mt-8 text-[20px] font-bold text-[#111]">How to Access Your Products</h2>
@@ -37,7 +37,7 @@ export default function DigitalDeliveryPolicy() {
           <ol className="mt-4 space-y-4 text-[16px] leading-[1.8] text-[#444]">
             <li>
               <strong>1. Check your inbox</strong> — Look for an email from{" "}
-              <strong>support@drawing.easyguide.store</strong> with the subject line{" "}
+              <strong>drawing@easyguide.store</strong> with the subject line{" "}
               <em>"Your Drawing Easy Guide — Download Links Inside! ✏️"</em>
             </li>
             <li>
@@ -73,7 +73,7 @@ export default function DigitalDeliveryPolicy() {
             <li>Check all folders including spam, junk, and promotions.</li>
             <li>
               Contact us at{" "}
-              <a href="mailto:support@drawing.easyguide.store" className="text-[#eda3ac] underline">support@drawing.easyguide.store</a>{" "}
+              <a href="mailto:drawing@easyguide.store" className="text-[#eda3ac] underline">drawing@easyguide.store</a>{" "}
               with your order email and we will resend your links promptly.
             </li>
           </ul>
@@ -81,7 +81,7 @@ export default function DigitalDeliveryPolicy() {
           <h2 className="mt-8 text-[20px] font-bold text-[#111]">Contact Us</h2>
           <p className="mt-3 text-[16px] leading-[1.8] text-[#444]">
             For any questions regarding your order or delivery, reach out at{" "}
-            <a href="mailto:support@drawing.easyguide.store" className="text-[#eda3ac] underline">support@drawing.easyguide.store</a>.
+            <a href="mailto:drawing@easyguide.store" className="text-[#eda3ac] underline">drawing@easyguide.store</a>.
             We respond within 1–2 business days.
           </p>
         </div>

@@ -30,7 +30,7 @@ export default function SiteFooter() {
           <div>
             <h2 className="text-[20px] font-extrabold text-white">Contact Info</h2>
             <p className="mt-5 flex items-center gap-2 text-[15px] text-white">
-              <span>📧</span> support@drawing.easyguide.store
+              <span>📧</span> drawing@easyguide.store
             </p>
             <p className="mt-4 flex items-start gap-2 text-[14px] leading-[1.6] text-white">
               <span className="mt-[2px]">🌐</span>
