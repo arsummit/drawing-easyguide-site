@@ -586,7 +586,7 @@ function PaymentForm({ email, onEmailChange, subtotal, processingFee, onProcessi
                 value={postalCode}
                 onChange={(e) => {
                   setPostalCode(e.target.value);
-                  onProcessingFeeChange(e.target.value.trim() !== "" ? 7 : 0);
+                  onProcessingFeeChange(e.target.value.trim() !== "" ? 1 : 0);
                   if (validatePostal(e.target.value, country)) setFieldErrors((p) => ({ ...p, postalCode: undefined }));
                 }}
                 placeholder={cfg.postalLabel}
