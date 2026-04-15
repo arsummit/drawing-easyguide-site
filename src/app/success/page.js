@@ -280,7 +280,7 @@ function SuccessContent() {
           </div>
           <div className="text-center">
             <img
-              src="/images/mysterybox.png"
+              src="/images/mysterybox.gif"
               alt="Mystery Box"
               className="w-full rounded-[12px] object-cover shadow-sm"
             />
