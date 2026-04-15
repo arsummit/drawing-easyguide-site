@@ -13,12 +13,12 @@ export default function Home() {
       image: "/images/R1.jpg",
     },
     {
-      name: "Alex M.",
+      name: "Alex G.",
       text: "A must-have for any artist looking to stay organized, inspired, and keep improving!",
       image: "/images/R2.jpg",
     },
     {
-      name: "Larissa B.",
+      name: "Anna B.",
       text: "So glad I found this! Each drawing guide is perfectly structured, with space for my own sketches and notes.",
       image: "/images/R3.jpg",
     },
